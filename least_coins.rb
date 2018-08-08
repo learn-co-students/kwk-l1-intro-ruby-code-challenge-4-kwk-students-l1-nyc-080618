@@ -1,7 +1,7 @@
-#write out your code here
+def money (coins)
+  quarters=(coins/25)
+  remainder_1=(coins%25)
+  puts "the number of quarters is #{quarters}"
+end 
 
-def least_coins(cents)
-
-#Code your answer here!
-
-end
+money (39)
